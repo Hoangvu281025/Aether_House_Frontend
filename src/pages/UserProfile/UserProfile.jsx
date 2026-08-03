@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
-import "./UserProfile.css";
+import "./Userprofile.css";
 import api from "../../lib/axios";
 
 export default function UserProfile() {
