@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo, useRef } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom"; // ⬅️ thêm useNavigate
-import "./Header.css";
+import "./header.css";
 import NavItem from "./navItem.jsx";
 import Cart from "../Cart/Cart.jsx";
 import { useCartBadge } from "../../lib/cartStore.jsx";
